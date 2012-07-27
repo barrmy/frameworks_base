@@ -6399,7 +6399,7 @@ public class WindowManagerService extends IWindowManager.Stub
         sl = reduceConfigLayout(sl, Surface.ROTATION_180, density, unrotDw, unrotDh);
         sl = reduceConfigLayout(sl, Surface.ROTATION_270, density, unrotDh, unrotDw);
         //outConfig.smallestScreenWidthDp = (int)(mSmallestDisplayWidth / density);
-        outConfig.smallestScreenWidthDp = 720        
+        outConfig.smallestScreenWidthDp = 720;       
 	outConfig.screenLayout = sl;
     }
 
